@@ -30,6 +30,12 @@ We chose the categorical-categorical because all the data is organized in catego
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
+```{r}
+WomanData=filter(triUmp,gender=="F")
+head(WomanData)
+```
+
+
 ## Descriptive Results
 
 ### Graphical Descriptive Results
